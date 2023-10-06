@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale-1.0" />
+    <title>Corryptocurrency</title>
+    <link rel="stylesheet" href="main.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <div>
+          <h1 class="logo"><span>Corr</span><span>yptocurrency</span></h1>
+        </div>
+        <div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#market">Market</a></li>
+            <li><a href="#service">Service</a></li>
+            <li><a href="#info">About Us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <section class="home">
+      <div class="content">
+        <div class="popCoinList">
+          <h2>Popular cryptocurrencies</h2>
+          <ul>
+            <script>
+              const coinName = "{{}}";
+            </script>
+            <li>Bitcoin</li>
+            <li>Bitcoin</li>
+            <li>Bitcoin</li>
+            <li>Bitcoin</li>
+            <li>Bitcoin</li>
+          </ul>
+        </div>
+        <div class="explanation">
+          <h1>Predict<br /><span>Crypto Price</span></h1>
+          <p>
+            Find best correlated cryptocurrency and minimize the risk of
+            investment
+          </p>
+          <a href="#" class="btn">EXPLORE MORE</a>
+        </div>
+      </div>
+    </section>
+    <section class="market">
+      <div class="coinList">
+        <div>
+          <h2>Market</h2>
+        </div>
+        <table>
+          <tr>
+            <th>#</th>
+            <th>Name</th>
+            <th>Corryptocurrency</th>
+            <th>Chart</th>
+          </tr>
+          <tr id="1">
+            <td>1</td>
+            <td><a>Bitcoin</a></td>
+            <td>
+              <ul id="corrypto1">
+                <li>Ethereum</li>
+                <li>Ethereum</li>
+                <li>Ethereum</li>
+                <li>Ethereum</li>
+                <li>Ethereum</li>
+              </ul>
+            </td>
+            <td>
+              <canvas id="coinChart" width="800" height="600"></canvas>
+              <script src="javascript/createChart.js"></script>
+            </td>
+            <!-- <script src="javascript/display.js"></script> -->
+            <!-- <td id="crypto1Chart" style="display: none">Chart</td> -->
+          </tr>
+        </table>
+      </div>
+    </section>
+  </body>
+</html>
